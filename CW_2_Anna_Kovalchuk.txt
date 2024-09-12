@@ -1,0 +1,58 @@
+2.1
+#include <stdio.h>
+#include <math.h>
+
+int main() {
+
+    float x, coss;
+    printf("Enter the numbre: ");
+    scanf("%f", &x);
+
+    coss = cos(x);
+
+
+printf("The coss is %f", coss);
+
+    return 0;
+}
+
+2.2
+#include <stdio.h>
+#include <math.h>
+
+int main() {
+
+    float a, b, c;
+    printf("Enter the cates of the triangle:  ");
+    scanf("%f %f", &a, &b);
+   
+
+    c = sqrt(a * a + b * b);
+
+    printf("The hypotenuse: %.2f", c);
+
+
+
+
+
+    return 0;
+}
+
+2.3
+#include <stdio.h>
+#include <math.h>
+
+int main() {
+
+    float a, b, c, S, p;
+    printf("Enter the sides of the triangle:  ");
+    scanf("%f %f %f", &a, &b, &c);
+
+    p = (a + b + c) / 2;
+    S =  sqrt(p * (p - a) * (p - b) * (p - c));
+    printf("The area: %.2f", S);
+
+
+
+    return 0;
+}
